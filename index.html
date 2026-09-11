@@ -4,107 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Senai Americana</title>
-    <style>
-        body {
-            text-align: center;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f9f9f9;
-            color: #333333;
-            margin: 0;
-            padding: 20px;
-        }
-
-        header h1 {
-            color: #e50914;
-            margin-bottom: 20px;
-        }
-
-        nav {
-            margin-bottom: 30px;
-        }
-
-        nav a {
-            text-decoration: none;
-            margin: 0 5px;
-        }
-
-        button {
-            background-color: #e50914;
-            color: #ffffff;
-            border: none;
-            padding: 10px 20px;
-            font-size: 14px;
-            font-weight: bold;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-
-        button:hover {
-            background-color: #b30009;
-        }
-
-        h2 {
-            color: #e50914;
-            border-bottom: 2px solid #e50914;
-            display: inline-block;
-            padding-bottom: 5px;
-            margin-top: 20px;
-        }
-
-        h3 {
-            color: #555555;
-            text-transform: capitalize;
-        }
-
-        p {
-            max-width: 600px;
-            margin: 10px auto;
-            line-height: 1.6;
-        }
-
-        section {
-            margin-bottom: 35px;
-        }
-
-        footer {
-            margin-top: 15px;
-            line-height: 1.5;
-            font-weight: 500;
-        }
-    </style>
 </head>
 <body>
 
     <header>
         <h1>Seja bem-vindo ao Senai Americana!</h1>
+        <nav>
+            <a href="#inicio"><button type="button">Início</button></a> 
+            <a href="cursos.html" target="_blank"><button type="button">Cursos</button></a> 
+            <a href="#contato"><button type="button">Contato</button></a> 
+        </nav>
     </header>
 
-    <nav>
-        <a href="#inicio"><button type="button">Início</button></a> 
-        <a href="cursos.html" target="_blank"><button type="button">Cursos</button></a> 
-        <a href="#contato"><button type="button">Contato</button></a> 
-    </nav>
-    
-    <section>
-        <h2 id="inicio">Início</h2>
-        <h3>Sobre o Senai Americana</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </section>
+    <main>
+        <section id="inicio">
+            <h2>Início</h2>
+            <h3>Sobre o Senai Americana</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </section>
 
-    <section>
-        <h2 id="cursos">Cursos</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <br>
-        <a href="cursos.html" target="_blank">
-            <button type="button">Ver Cursos</button>
-        </a>
-    </section>
+        <section id="cursos">
+            <h2>Cursos</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="cursos.html" target="_blank">
+                <button type="button">Ver Cursos</button>
+            </a>
+        </section>
 
-    <h2 id="contato">Contato</h2>
+        <section id="contato">
+            <h2>Contato</h2>
+        </section>
+    </main>
+
     <footer>
-        Endereço: Rua Fulano de Tal, 1234, Cidade Tal-SP <br>
-        Contato: (19) 1234-5678
+        <p>
+            Endereço: Rua Fulano de Tal, 1234, Cidade Tal-SP <br>
+            Contato: (19) 1234-5678
+        </p>
     </footer>
 
 </body>
