@@ -4,106 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cursos - Desenvolvimento de Sistemas</title>
-    <style>
-        body {
-            text-align: center;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f9f9f9;
-            color: #333333;
-            margin: 0;
-            padding: 20px;
-        }
-
-        header h1 {
-            color: #e50914;
-            margin-bottom: 20px;
-        }
-
-        nav {
-            margin-bottom: 30px;
-        }
-
-        nav a {
-            text-decoration: none;
-            margin: 0 5px;
-        }
-
-        button {
-            background-color: #e50914;
-            color: #ffffff;
-            border: none;
-            padding: 10px 20px;
-            font-size: 14px;
-            font-weight: bold;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-
-        button:hover {
-            background-color: #b30009;
-        }
-
-        img {
-            max-width: 400px;
-            width: 90%;
-            height: auto;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            margin: 10px 0 25px 0;
-        }
-
-        h2 {
-            color: #e50914;
-            border-bottom: 2px solid #e50914;
-            display: inline-block;
-            padding-bottom: 5px;
-            margin-top: 20px;
-        }
-
-        p {
-            max-width: 600px;
-            margin: 10px auto;
-            line-height: 1.6;
-        }
-
-        section {
-            margin-bottom: 35px;
-        }
-
-        footer {
-            margin-top: 15px;
-            line-height: 1.5;
-            font-weight: 500;
-        }
-    </style>
 </head>
 <body>
 
     <header>
         <h1>Desenvolvimento de Sistemas</h1>
+        <nav>
+            <a href="index.html"><button type="button">Início</button></a> 
+            <a href="#cursos"><button type="button">Cursos</button></a> 
+            <a href="#contato"><button type="button">Contato</button></a> 
+        </nav>
     </header>
 
-    <nav>
-        <a href="index.html"><button type="button">Início</button></a> 
-        <a href="#cursos"><button type="button">Cursos</button></a> 
-        <a href="#contato"><button type="button">Contato</button></a> 
-    </nav>
-
-    <section>
-        <img src="https://www.fiemg.com.br/senai/wp-content/uploads/sites/12/2023/07/12556718_l-REDIMENSIONADO-scaled.jpg" alt="Desenvolvimento de Sistemas">
+    <main>
+         <section>
+        <img src="https://www.fiemg.com.br/senai/wp-content/uploads/sites/12/2023/07/12556718_l-REDIMENSIONADO-scaled.jpg"width="300"
     </section>
 
-    <section>
-        <h2 id="cursos">Sobre o Curso</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, repellat nostrum officia odit odio laudantium incidunt architecto quasi porro voluptate, tenetur, error magni? Pariatur libero necessitatibus eos, aliquam quam voluptate.</p>
-    </section>
+        <section>
+            <h2 id="cursos">Sobre o Curso</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, repellat nostrum officia odit odio laudantium incidunt architecto quasi porro voluptate, tenetur, error magni? Pariatur libero necessitatibus eos, aliquam quam voluptate.</p>
+        </section>
 
-    <h2 id="contato">Contato</h2>
+        <section>
+            <h2 id="contato">Contato</h2>
+        </section>
+    </main>
+
     <footer>
-        Endereço: Rua Fulano de Tal, 1234, Cidade Tal-SP <br>
-        Contato: (19) 1234-5678
+        <p>
+            Endereço: Rua Fulano de Tal, 1234, Cidade Tal-SP <br>
+            Contato: (19) 1234-5678
+        </p>
     </footer>
 
 </body>
 </html>
+
